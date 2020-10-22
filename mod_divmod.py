@@ -1,0 +1,6 @@
+n = int(input())
+d = int(input())
+l = divmod(n,d)
+print(l[0])
+print(l[1])
+print(l)
