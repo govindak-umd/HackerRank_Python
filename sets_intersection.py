@@ -1,0 +1,5 @@
+n = int(input())
+s1 =  set(list(map(int, input().split()[:n])))
+m = int(input())
+s2 =  set(list(map(int, input().split()[:m])))
+print(len(s2.intersection(s1)))

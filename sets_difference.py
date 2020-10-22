@@ -1,0 +1,5 @@
+n = int(input())
+set_1 =  set(list(map(int, input().split()[:n])))
+m = int(input())
+set_2 =  set(list(map(int, input().split()[:m])))
+print(len(set_1-set_2))
